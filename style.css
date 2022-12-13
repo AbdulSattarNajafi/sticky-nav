@@ -192,6 +192,10 @@ body {
     margin-left: 20px;
 }
 
+.menu-btn-wrapper {
+    margin-left: 0;
+}
+
 .sticky-nav__list-link {
     display: flex;
     flex-direction: column;
@@ -237,3 +241,12 @@ body {
     }
 }
 
+@media (max-width: 330px){
+    .sticky-nav__list-item {
+        list-style: none;
+        margin-left: 12px;
+    }
+        .menu-btn-wrapper {
+        margin-left: 0;
+    }
+}
