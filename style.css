@@ -120,7 +120,7 @@ body {
     display: none;
     width: 100%;
     background-color: var(--mobile-header-bg);
-    padding: 5px 16px;
+    padding: 5px 0;
     z-index: 999;
     box-shadow: 0px 4px 17px 0px rgb(0 0 0 / 8%);
     transition: all .2s ease-out;
@@ -180,7 +180,6 @@ body {
 .sticky-nav__list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -188,6 +187,10 @@ body {
 
 .sticky-nav__list-item {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 25%; /* Adjust the widht size based on the numbers of the items */
+    padding: 0 10px;
 }
 
 .sticky-nav__list-link {
