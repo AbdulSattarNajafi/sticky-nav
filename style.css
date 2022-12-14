@@ -189,7 +189,10 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    width: 25%; /* Adjust the widht size based on the numbers of the items */
+    /* Adjust the width size based on the numbers of the items,
+    For 4 items the width 25%, and if 5 items the width 20%, if 3 Items the width 33.3%.
+     */
+    width: 25%;
     padding: 0 10px;
 }
 
