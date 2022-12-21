@@ -55,6 +55,11 @@ body {
     color: var(--mobile-header-overlay);
 }
 
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
 .flex-item a {
     line-height: 1;
 }
@@ -144,7 +149,7 @@ body {
     line-height: 1;
     color: var(--mobile-header-overlay);
     padding: 0 4px;
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 .toggle-menu-btn .icon {
@@ -154,8 +159,8 @@ body {
 }
 .toggle-menu-btn .icon span {
     display: inline-block;
-    width: 28px;
-    height: 4px;
+    width: 26px;
+    height: 3px;
     background-color: var(--mobile-header-overlay);
     border-radius: 12px;
     transition: all .4s ease;
@@ -164,7 +169,6 @@ body {
 
 .toggle-menu-btn .icon span:nth-child(2) {
     margin: 4px 0;
-    height: 4px;
     transition-delay: 0s;
 }
 
@@ -174,11 +178,11 @@ body {
 }
 
 .toggle-menu-btn.active .icon span:nth-child(1) {
-    transform: rotate(45deg) translateY(6px) translateX(6px);
+    transform: rotate(45deg) translateY(5px) translateX(5px);
 }
 
 .toggle-menu-btn.active .icon span:last-child {
-    transform: rotate(-45deg) translateY(-6px) translateX(5px);
+    transform: rotate(-45deg) translateY(-5px) translateX(5px);
 }
 
 .sticky-nav__list {
