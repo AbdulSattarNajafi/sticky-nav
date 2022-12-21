@@ -43,7 +43,8 @@ body {
 
 .site-identity {
     text-align: center;
-    padding: 6px 0;
+    height: 60px;
+    padding: 5px 0;
 }
 .logo {
     display: inline-block;
@@ -93,15 +94,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    line-height: 1;
     padding-right: 10px;
 }
 
 .telephone-mobile-block {
-    margin-left: 30px;
-    padding: 0 10px;
+    margin-left: 24px;
+    padding: 0 6px;
 }
 .header-top-icons-block .social-block-link {
-    margin-right: 12px;
+    margin-right: 6px;
 }
 
 .header-top-icons-block .social-block-link > a {
@@ -110,6 +112,8 @@ body {
 }
 .flex-item a svg {
     fill:  var(--mobile-header-overlay);
+    width: 32px;
+    height: 32px;
 }
 
 /* Sticky Nav Menu for Tablet and Mobile screens */
@@ -133,14 +137,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
     font-family: inherit;
     font-size: 17px;
     font-weight: 500;
     line-height: 1;
     color: var(--mobile-header-overlay);
-    padding: 10px 4px;
-    padding-bottom: 4px;
+    padding: 0 4px;
+    padding-top: 5px;
 }
 
 .toggle-menu-btn .icon {
@@ -150,7 +154,7 @@ body {
 }
 .toggle-menu-btn .icon span {
     display: inline-block;
-    width: 30px;
+    width: 28px;
     height: 4px;
     background-color: var(--mobile-header-overlay);
     border-radius: 12px;
@@ -170,11 +174,11 @@ body {
 }
 
 .toggle-menu-btn.active .icon span:nth-child(1) {
-    transform: rotate(45deg) translateY(7px) translateX(4px);
+    transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
 .toggle-menu-btn.active .icon span:last-child {
-    transform: rotate(-45deg) translateY(-7px) translateX(4px);
+    transform: rotate(-45deg) translateY(-6px) translateX(5px);
 }
 
 .sticky-nav__list {
@@ -201,23 +205,24 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
     text-decoration: none;
     font-size: 17px;
     line-height: 1.2;
     font-weight: 500;
     color: var(--mobile-header-overlay);
-    padding: 4px;
+    padding: 0 4px;
     padding-top: 3px;
 }
 
 .sticky-nav__list-icon {
     display: inline-block;
+    line-height: 1;
 }
 
 .sticky-nav__list-icon svg {
-    max-width: 26px;
-    height: 30px;
+    max-width: 28px;
+    height: 24px;
     object-fit: cover;
     fill: currentColor;
 }
@@ -225,8 +230,13 @@ body {
 @media (max-width: 1023.98px) {
     .site-identity .logo {
         width: 110px;
-        height: 66px;
+        height: 50px;
         padding: 0;
+    }
+    .site-identity .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
     #visit-shop,
     #visit-shop-cat {
