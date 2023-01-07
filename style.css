@@ -18,6 +18,7 @@ body {
     padding: 0;
     background: #ffffff;
     height: 3000px;
+    overscroll-behavior: none;
 }
 .header-wrap {
     display: flex;
@@ -139,10 +140,8 @@ body {
 /* Sticky Nav Menu for Tablet and Mobile screens */
 .sticky-nav {
     position: fixed;
-    position: sticky;
     left: 0;
-    /* bottom: 0; */
-    top: calc(100% - 60px);
+    bottom: 0;
     display: none;
     width: 100%;
     background-color: var(--mobile-header-bg);
