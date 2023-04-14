@@ -130,6 +130,10 @@ body {
     justify-content: flex-start;
 }
 
+.left-social-links {
+    padding-left: 24px;
+}
+
 .telephone-mobile-block {
     margin-left: 24px;
     padding: 0 6px;
