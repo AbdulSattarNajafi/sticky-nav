@@ -20,6 +20,10 @@ body {
     height: 3000px;
     overscroll-behavior: none;
 }
+
+a {
+    text-decoration: none;
+}
 .header-wrap {
     display: flex;
     align-items: center;
@@ -109,6 +113,21 @@ body {
     align-items: center;
 }
 
+.telephone-block {
+    margin-right: 30px;
+}
+
+.basket-block {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.basket-block a {
+    display: inline-block;
+    width: 57px;
+}
+
 /* Ignore the above styles */
 
 /* -------------- Add Below Styles ------------ */
@@ -130,21 +149,18 @@ body {
     justify-content: flex-start;
 }
 
-.left-social-links {
-    padding-left: 24px;
-}
-
 .telephone-mobile-block {
     margin-left: 24px;
     padding: 0 6px;
 }
 .header-top-icons-block .social-block-link {
-    margin-right: 6px;
+    margin-right: 12px;
 }
 
 .header-top-icons-block .social-block-link > a {
     display: inline-block;
-    padding: 0 5px;
+    width: 57px;
+    text-align: right;
 }
 .flex-item a svg {
     fill: var(--mobile-header-overlay);
